@@ -138,8 +138,9 @@ main {
 .skills {
     padding: 30px;
     border-radius: 5px;
-    background: #ecc2a5;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    background: #a5ece0;
+    box-shadow: 0px 6px 50px 0px ;
 }
 
 .skill-discription {
@@ -173,25 +174,32 @@ main {
 .resumi-item-discription {
     color: #757575;
 }
-.download-cv{
+
+.download-cv {
     text-align: center;
     margin-top: 50px;
 }
+
 /* footer styles */
-footer{
+footer {
     display: flex;
     /* gap: 100px; */
-    background-color:#FFF8F3;
+    background-color: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
 }
-.footer-colum{
+
+.footer-colum {
     width: 50%;
 }
-.social-links a{
+
+.social-links a {
     margin-right: 30px;
 }
-.contact input[type="text"],.contact input[type="email"], textarea {
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
     display: block;
     margin-bottom: 24px;
     padding: 18px 35px;
